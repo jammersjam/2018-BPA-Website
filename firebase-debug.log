@@ -1,0 +1,51 @@
+[debug] [2018-10-09T14:53:56.238Z] ----------------------------------------------------------------------
+[debug] [2018-10-09T14:53:56.240Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2018-10-09T14:53:56.240Z] CLI Version:   5.0.1
+[debug] [2018-10-09T14:53:56.240Z] Platform:      darwin
+[debug] [2018-10-09T14:53:56.240Z] Node Version:  v10.9.0
+[debug] [2018-10-09T14:53:56.241Z] Time:          Tue Oct 09 2018 10:53:56 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-10-09T14:53:56.241Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-09T14:53:56.248Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-09T14:53:56.248Z] > authorizing via signed-in user
+[info] 
+     🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥     🔥🔥🔥     🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥     🔥🔥 🔥🔥       🔥🔥     🔥🔥  🔥🔥   🔥🔥  🔥🔥       🔥🔥
+     🔥🔥🔥🔥🔥🔥    🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥   🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥
+     🔥🔥        🔥🔥  🔥🔥    🔥🔥  🔥🔥       🔥🔥     🔥🔥 🔥🔥     🔥🔥       🔥🔥 🔥🔥
+     🔥🔥       🔥🔥🔥🔥 🔥🔥     🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥 🔥🔥🔥🔥🔥🔥🔥🔥  🔥🔥     🔥🔥  🔥🔥🔥🔥🔥🔥  🔥🔥🔥🔥🔥🔥🔥🔥
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/markbruckert/guppy-projects/bpa-website
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2018-10-09T14:54:09.193Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-09T14:54:09.193Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-09T14:54:09.387Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-09T14:54:09.408Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2018-10-09T14:54:10.076Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2018-10-09T14:54:50.644Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:66:16)
+    at Interface._setRawMode (readline.js:251:16)
+    at Interface.close (readline.js:376:10)
+    at ReadStream.ontermend (readline.js:164:10)
+    at ReadStream.emit (events.js:187:15)
+    at ReadStream.EventEmitter.emit (domain.js:442:20)
+    at endReadableNT (_stream_readable.js:1085:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
