@@ -18,7 +18,7 @@ const App = () => (
       <Route path="/food" component={foodWindow} />
       <Route path="/attractions" component={attractionWindow} />
       <Route path="/dresscode" component={dressWindow} />
-      <Route path="/mytrip" component={mytripWindow} />
+      <Route path="/maps" component={maps} />
     </div>
   </Router>
 );
@@ -29,11 +29,11 @@ const homeWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
-    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/mytrip"><button class="hours">👱 My Trip</button></Link>
+    <Link to="/maps"><button class="maps">👱 Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -45,11 +45,11 @@ const transportWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
-    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/mytrip"><button class="hours">👱 My Trip</button></Link>
+    <Link to="/maps"><button class="maps">👱 Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -63,11 +63,11 @@ const foodWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
-    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/mytrip"><button class="hours">👱 My Trip</button></Link>
+    <Link to="/maps"><button class="maps">👱 Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -81,11 +81,11 @@ const attractionWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
-    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/mytrip"><button class="hours">👱 My Trip</button></Link>
+    <Link to="/maps"><button class="maps">👱 Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -98,11 +98,11 @@ const dressWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
-    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/mytrip"><button class="hours">👱 My Trip</button></Link>
+    <Link to="/maps"><button class="maps">👱 Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -115,15 +115,15 @@ const mytripWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
-    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/mytrip"><button class="hours">👱 My Trip</button></Link>
+    <Link to="/maps"><button class="maps">👱 Maps</button></Link>
     <br/>
     <hr/>
     <br/>
-    <h1>My Trip</h1>
+    <h1>Maps</h1>
   </div>
 );
 
