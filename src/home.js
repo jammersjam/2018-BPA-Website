@@ -55,7 +55,6 @@ const transportWindow = () => (
     <br/>
 
     <h1>Transportation</h1>
-  <p>test</p>
   </div>
 );
 
