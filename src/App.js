@@ -1,97 +1,130 @@
-import React, { Component } from "react";
-import withFirebaseAuth from "react-auth-firebase";
-import firebase from "./firebase";
-import "./App.css";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import logo from './logo.svg';
+import './App.css';
 import Navigation from "./Components/navigation";
-import Home from './home'
+import Uber from "./uber.png";
+import Lyft from "./lyft.png";
+import Sidecar from "./sidecar.png";
+
+const App = () => (
 
 
-// const email = "test@test.com";
-// const password = "password";
+  <Router>
+    <div>
+      <Route exact path="/" component={homeWindow} />
+      <Route path="/transportation" component={transportWindow} />
+      <Route path="/food" component={foodWindow} />
+      <Route path="/attractions" component={attractionWindow} />
+      <Route path="/dresscode" component={dressWindow} />
+      <Route path="/maps" component={mapsWindows} />
+    </div>
+  </Router>
+);
 
-class App extends Component {
-  state = {
-    email: `test@test.com`,
-    password: `password`
-  };
-  render() {
-    // console.log(this.props);
 
-    const {
-      signInWithEmail,
-      signUpWithEmail,
-      signInWithGoogle,
-      googleAccessToken,
-      user,
-      error,
-      signOut
-    } = this.props;
-    const { email, password } = this.state;
-    if (user) {
-      return <Home user={user} error={error} signOut={signOut} />;
-    }
-    return (
-      <div>
-      <header className="App-header">
-      <h1 class="titleMain">BPA Nationals</h1>
-      </header>
-      <h1 className="title">Sign In / SignUp</h1>
-        <form onSubmit={e => e.preventDefault()}>
-          <input
-            type="text"
-            onChange={e =>
-              this.setState({
-                email: e.target.value
-              })
-            }
-            value={email}
-          />{" "}
-          <br />
-          <input
-            type="password"
-            onChange={e => this.setState({ password: e.target.value })}
-            value={password}
-          />{" "}
-          <br />
-          <button className="signin"
-            type="submit"
-            onClick={() => signUpWithEmail(email, password)}
-          >
-            Sign Up
-          </button>
+const homeWindow = () => (
+  <div className="App">
+    <header className="App-header">
+    <h1>BPA Nationals</h1>
+    </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
+    <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/food"><button class="food">🍕 Food</button></Link>
+    <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
+    <br/>
+    <hr/>
+    <br/>
+  </div>
+);
 
-          {!user && (
-            <button className="signin"
-              type="submit"
-              onClick={() => signInWithEmail(email, password)}
-            >
-              Sign In
-            </button>
-          )}
-        </form>
-        <br />
-        <button className="Google" onClick={signInWithGoogle}>Google</button> <br />
-      </div>
-    );
-  }
-}
+const transportWindow = () => (
+  <div className="App">
+    <header className="App-header">
+    <h1>BPA Nationals</h1>
+    </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
+    <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/food"><button class="food">🍕 Food</button></Link>
+    <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
+    <br/>
+    <hr/>
+    <br/>
 
-const authConfig = {
-  email: {
-    verifyOnSignup: false,
-    saveUserInDatabase: true
-  },
-  google: {
-    // scopes: ["admin.datatransfer", "contacts.readonly"], // optional
-    // customParams: {
-    //   login_hint: "user@example.com"
-    // },
-    // redirect: true, // default is popup: true, redirect: true,
-    returnAccessToken: true,
-    // scopes: [], // array
-    saveUserInDatabase: true
-  }
-};
+    <h1>Transportation</h1>
+  </div>
+);
 
-// export default App;
-export default withFirebaseAuth(App, firebase, authConfig);
+const foodWindow = () => (
+  <div className="App">
+    <header className="App-header">
+    <h1>BPA Nationals</h1>
+    </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
+    <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/food"><button class="food">🍕 Food</button></Link>
+    <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
+    <br/>
+    <hr/>
+    <br/>
+
+    <h1>Food</h1>
+  </div>
+);
+
+const attractionWindow = () => (
+  <div className="App">
+    <header className="App-header">
+    <h1>BPA Nationals</h1>
+    </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
+    <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/food"><button class="food">🍕 Food</button></Link>
+    <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
+    <br/>
+    <hr/>
+    <br/>
+    <h1>Attractions</h1>
+  </div>
+);
+
+const dressWindow = () => (
+  <div className="App">
+    <header className="App-header">
+    <h1>BPA Nationals</h1>
+    </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
+    <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/food"><button class="food">🍕 Food</button></Link>
+    <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
+    <br/>
+    <hr/>
+    <br/>
+    <h1>Dress Code</h1>
+  </div>
+);
+
+const mapsWindows = () => (
+  <div className="App">
+    <header className="App-header">
+    <h1>BPA Nationals</h1>
+    </header>
+    <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
+    <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/food"><button class="food">🍕 Food</button></Link>
+    <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
+    <br/>
+    <hr/>
+    <br/>
+    <h1>Maps</h1>
+  </div>
+);
+
+
+export default App;
