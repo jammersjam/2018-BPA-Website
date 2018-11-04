@@ -30,9 +30,9 @@ const homeWindow = () => (
     </header>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -46,9 +46,9 @@ const transportWindow = () => (
     </header>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -64,9 +64,9 @@ const foodWindow = () => (
     </header>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -82,9 +82,9 @@ const attractionWindow = () => (
     </header>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -99,9 +99,9 @@ const dressWindow = () => (
     </header>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <br/>
     <hr/>
     <br/>
@@ -116,9 +116,9 @@ const mapsWindows = () => (
     </header>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
+    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <Link to="/food"><button class="food">🍕 Food</button></Link>
     <Link to="/dresscode"><button class="dresscode">👔 Dress Code</button></Link>
-    <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
     <br/>
     <hr/>
     <br/>
