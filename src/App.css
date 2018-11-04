@@ -197,3 +197,33 @@ input{
   width: 20%;
   text-align: center;
 }
+
+.hotel{
+  width:80%;
+  height: 500px;
+}
+
+.map{
+  width:100%;
+}
+
+h2{
+  margin-top:50px;
+}
+
+.mall{
+  width:100%;
+}
+
+.mallButton{
+  width:20%;
+  padding: 15px;
+  margin-top:50px;
+  border-radius: 30px;
+  color: white;
+  background: #3a6186;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+background: linear-gradient(to right, #89253e, #3a6186);
+border: none;
+
+}
