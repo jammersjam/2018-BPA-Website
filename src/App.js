@@ -113,57 +113,57 @@ const attractionWindow = () => (
      <h1>Smithsonians</h1>
      
      <ul>
-             <li>African American Museum</li>
+             <li><b><i>African American Museum</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>15th St. and Constitution Ave., NW Washington, DC</li>
                   <li><b>Hours: </b>10 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>African Art Museum</li>
+             <li><b><i>African Art Museum</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>950 Independence Avenue, SW Washington, DC</li>
                   <li><b>Hours: </b>10 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>Air and Space Museum</li>
+             <li><b><i>Air and Space Museum</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>Independence Avenue and 6th Street, SW Washington, DC</li>
                   <li><b>Hours: </b>10 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>Air and Space Museum Udvar-Hazy Center</li>
+             <li><b><i>Air and Space Museum Udvar-Hazy Center</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>14390 Air and Space Museum Parkway, Chantilly, VA</li>
                   <li><b>Hours: </b>10 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>American Art Museum</li>
-             <ul style="list-style-type:circle">
-                  <li><b>Address: </b>8th and F Streets, NW Washington, DC</li>
-                  <li><b>Hours: </b>11:30 a.m. to 7:00 p.m.</li>
-             </ul>
-             <li>American History Museum</li>
-             <ul style="list-style-type:circle">
-                  <li><b>Address: </b>14th Street and Constitution Avenue, NW Washington, DC</li>
-                  <li><b>Hours: </b>10:00 a.m. - 5:30 p.m.</li>
-             </ul>
-             <li>American Indian Museum</li>
-             <ul style="list-style-type:circle">
-                  <li><b>Address: </b>4th Street  and Independence Avenue, SW Washington, DC</li>
-                  <li><b>Hours: </b>10 a.m. to 5:30 p.m.</li>
-             </ul>
-             <li>Anacostia Community Museum</li>
-             <ul style="list-style-type:circle">
-                  <li><b>Address: </b>1901 Fort Place SE Washington, DC</li>
-                  <li><b>Hours: </b>10:00 a.m. - 5:00 p.m.</li>
-             </ul>
-             <li>Archives of American Art</li>
+             <li><b><i>American Art Museum</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>8th and F Streets, NW Washington, DC</li>
                   <li><b>Hours: </b>11:30 a.m. - 7:00 p.m.</li>
              </ul>
-             <li>Freer Gallery of Art</li>
+             <li><b><i>American History Museum</i></b></li>
+             <ul style="list-style-type:circle">
+                  <li><b>Address: </b>14th Street and Constitution Avenue, NW Washington, DC</li>
+                  <li><b>Hours: </b>10:00 a.m. - 5:30 p.m.</li>
+             </ul>
+             <li><b><i>American Indian Museum</i></b></li>
+             <ul style="list-style-type:circle">
+                  <li><b>Address: </b>4th Street  and Independence Avenue, SW Washington, DC</li>
+                  <li><b>Hours: </b>10 a.m. - 5:30 p.m.</li>
+             </ul>
+             <li><b><i>Anacostia Community Museum</i></b></li>
+             <ul style="list-style-type:circle">
+                  <li><b>Address: </b>1901 Fort Place SE Washington, DC</li>
+                  <li><b>Hours: </b>10:00 a.m. - 5:00 p.m.</li>
+             </ul>
+             <li><b><i>Archives of American Art</i></b></li>
+             <ul style="list-style-type:circle">
+                  <li><b>Address: </b>8th and F Streets, NW Washington, DC</li>
+                  <li><b>Hours: </b>11:30 a.m. - 7:00 p.m.</li>
+             </ul>
+             <li><b><i>Freer Gallery of Art</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>Jefferson Drive and 12th Street, SW Washington, DC</li>
                   <li><b>Hours: </b>10:00 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>Hirshhorn</li>
+             <li><b><i>Hirshhorn</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>Independence Avenue at 7th Street, SW Washington, DC</li>
                   <li><b>Hours:</b></li>
@@ -173,7 +173,7 @@ const attractionWindow = () => (
                         <li><b>Sculpture Garden: </b>7:30 a.m. - dusk</li>
                   </ul>
              </ul>
-             <li>National Zoo</li>
+             <li><b><i>National Zoo</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>3001 Connecticut Ave., NW Washington, DC</li>
                   <li><b>Hours:</b></li>
@@ -183,42 +183,42 @@ const attractionWindow = () => (
                         <li>(Weather permitting)</li>
                   </ul>
              </ul>
-             <li>Natural History Museum</li>
+             <li><b><i>Natural History Museum</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>10th Street and Constitution Avenue, NW Washington, DC</li>
                   <li><b>Hours: </b>10:00 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>Portrait Gallery</li>
+             <li><b><i>Portrait Gallery</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>8th and F Streets, NW Washington, DC</li>
                   <li><b>Hours: </b>11:30 a.m. - 7:00 p.m.</li>
              </ul>
-             <li>Postal Museum</li>
+             <li><b><i>Postal Museum</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>2 Massachusetts Avenue, NE Washington, DC</li>
                   <li><b>Hours: </b>10:00 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>Renwick Gallery</li>
+             <li><b><i>Renwick Gallery</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>1661 Pennsylvania Avenue, NW Washington, DC</li>
                   <li><b>Hours: </b>10:00 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>S. Dillon Ripley Center</li>
+             <li><b><i>S. Dillon Ripley Center</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>1100 Jefferson Drive, SW Washington, DC</li>
                   <li><b>Hours: </b>10:00 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>Sackler Gallery</li>
+             <li><b><i>Sackler Gallery</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>1050 Independence Avenue, SW Washington, DC</li>
                   <li><b>Hours: </b>10:00 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>Smithsonian Castle</li>
+             <li><b><i>Smithsonian Castle</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>1000 Jefferson Drive, SW Washington, DC</li>
                   <li><b>Hours: </b>8:30 a.m. - 5:30 p.m.</li>
              </ul>
-             <li>Smithsonian Gardens</li>
+             <li><b><i>Smithsonian Gardens</i></b></li>
              <ul style="list-style-type:circle">
                   <li><b>Address: </b>Smithsonian museum grounds Washington, DC</li>
                   <li><b>Hours: </b>Haupt Garden open daily dawn to dusk; all others open 24 hours</li>
