@@ -131,6 +131,55 @@ const dressWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>
+    
+    <p>In order to promote a professional atmosphere, BPA’s Board of Trustees has developed the following official dress code policy for the Business Professionals of America National Leadership Conference. Students, advisors and chaperones must follow the dress code. It is recommended that all guests follow established dress code policy.</p>
+    <p>Members not dressed in required attire will not be allowed to participate in any session or any competitive event. Members not adhering to the Professional Dress Code will not be allowed on stage.</p>
+    <p>Members refused entrance to an event will be given the opportunity to change into appropriate attire immediately and participate/compete in the event. Having changed into appropriate attire, the member will join testing in progress. No additional time will be given for time missed.</p>
+    <p>Members also have the right to grieve the issue immediately after being refused entrance. Grievance of the Dress Code policy will not be accepted if not received in writing at Competitive Events headquarters within 15 minutes of the infraction in question.</p>
+    
+    <h2>Professional Dress Code</h2>
+        <p><i>Required for the following events: General Sessions, all Competitive Events (judged, non-judged, and open), Campaign Rally, Caucuses, Workshops, National Leadership Academy.</i></p>
+        <h3>Women:</h3>
+        <ul>
+              <li>Pant or skirt suit.</li>
+              <li>Dress skirt or dress slacks with coordinated blouse and/or sweater.</li>
+              <li>Business professional “dress.”</li>
+              <li>BPA blazer with dress skirt or dress slacks and blouse or sweater.</li>
+              <li>Dress shoes or dress sandals with heel are required with all of the above.</li>
+              <li>Skirt length may be no greater than two inches above the top of the knee.</li>
+              <li>This excludes all denim for any of the above.</li>
+        </ul>
+        <h3>Men:</h3>
+        <ul>
+              <li>Dress slacks, dress shirt, and tie.</li>
+              <li>Suit, dress shirt, and tie.</li>
+              <li>Sport coat, coordinated dress slacks, dress shirt, and tie.</li>
+              <li>BPA blazer with dress slacks, dress shirt, and tie.</li>
+              <li>Dress shoes and dress socks are required with all of the above.</li>
+              <li>This excludes all denim for any of the above.</li>
+        </ul>
+    
+    <h2>Casual Dress Code</h2>
+        <p><i>Required for the following events: Tours, Special Events and Exhibit Hall.</i></p>
+        <h3>Women:</h3>
+        <ul>
+              <li>Sportswear (jeans), pants, and shirt, T-shirt, and shorts.</li>
+              <li>Footwear required with all of the above.</li>
+        </ul>
+        <h3>Men:</h3>
+        <ul>
+              <li>Sportswear (jeans), pants and shirt, T-shirt, and shorts.</li>
+              <li>Footwear required with all of the above. </li>
+        </ul>
+    
+    <h2>The following are unacceptable during BPA activities:</h2>
+        <ul>
+              <li>Strapless, spaghetti straps, tube tops, halter tops, midriff tops.</li>
+              <li>Spandex, lycra, or transparent clothing.</li>
+              <li>Cut-offs or ragged clothing.</li>
+              <li>Clothing with inappropriate words and pictures.</li>
+        </ul>
+      <p><b>Swim suits</b> must be covered with appropriate attire while in any area except the swimming pool or designated sunbathing area.</p>
   </div>
 );
 
