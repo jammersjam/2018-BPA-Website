@@ -117,11 +117,12 @@ const attractionWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>
-     <p><i>Washington addresses indicate quadrants--NW, NE, SE, SW--starting at the U.S. Capital. The axes are North Capital, South Capital, and East Capitol streets, and the National Mall.</i></p>
-     <p><i>Help keep the National Mall clean; place trash and recyclables in appropriate receptacles.</i></p>
-     <p><i>Please be aware that many monuments, memorials, and museums have limited to no parking available.</i></p>
-     <p><i>Always check ahead of time all monuments and memorials you wish to attend as many are undergoing renovation.</i></p>
-     <div align="left"><h1>Smithsonians</h1>
+     <div align="left">
+     <p align="center"><i>Washington addresses indicate quadrants--NW, NE, SE, SW--starting at the U.S. Capital. The axes are North Capital, South Capital, and East Capitol streets, and the National Mall.</i></p>
+     <p align="center"><i>Help keep the National Mall clean; place trash and recyclables in appropriate receptacles.</i></p>
+     <p align="center"><i>Please be aware that many monuments, memorials, and museums have limited to no parking available.</i></p>
+     <p align="center"><i>Always check ahead of time all monuments and memorials you wish to attend as many are undergoing renovation.</i></p>
+     <h1 align="center">Smithsonians</h1>
      <ul>
              <li><b><i>African American Museum</i></b></li>
              <ul>
@@ -239,7 +240,7 @@ const attractionWindow = () => (
                   <li>10 a.m. - 5:20 p.m.</li>
              </ul>
      </ul>
-     <h1>Memorials/Monuments</h1>
+     <h1 align="center">Memorials/Monuments</h1>
      <h2>Arlington National Cemetery</h2>
      <ul>
             <li><b><i>Women in Military Service for America Memorial</i></b></li>
@@ -319,12 +320,12 @@ const attractionWindow = () => (
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>
       </ul>
-    <h1>Government Buildings</h1>
-    <p><i>Please be respectful of the appropriate etiquette at all times when on government grounds. Remember when at NLC you are not only representing your state and the national organization, but also yourself.</i></p>
+    <h1 align="center">Government Buildings</h1>
+    <p align="center"><i>Please be respectful of the appropriate etiquette at all times when on government grounds. Remember when at NLC you are not only representing your state and the national organization, but also yourself.</i></p>
     <ul>
             <li><b><i>United States Capital Building</i></b></li>
             <ul>
-                   <a href="https://www.visitthecapitol.gov/" rel="nofollow" target="_blank">Capital Building Website</a>
+                   <li><a href="https://www.visitthecapitol.gov/" rel="nofollow" target="_blank">Capital Building Website</a></li>
                    <li><b>Address: </b>First St NE, Washington, DC 20515</li>
                    <li><b>Hours: </b>Monday - Saturday: 8:30a.m. - 4:30p.m.</li>
                    <li><b>Prohibited Items: </b></li>
