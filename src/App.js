@@ -327,7 +327,7 @@ const attractionWindow = () => (
                    <a href="https://www.visitthecapitol.gov/" rel="nofollow" target="_blank">Capital Building Website</a>
                    <li><b>Address: </b>First St NE, Washington, DC 20515</li>
                    <li><b>Hours: </b>Monday - Saturday: 8:30a.m. - 4:30p.m.</li>
-                   <li><b>Prohibited Items: </li>
+                   <li><b>Prohibited Items: </b></li>
                    <ul>
                           <li><i>Before entering the Capitol Visitor Center, all visitors are screened by a magnetometer and all items that are permitted inside the building are screened by an x-ray device.</i></li>
                           <li><i>The following items are strictly prohibited in the Capitol, including the Capitol Visitor Center:</i></li>
