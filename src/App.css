@@ -60,6 +60,11 @@
   border: none;
 }
 
+.attractionsContent{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
 .dresscode{
   padding-left:25px;
   padding-right:25px;
