@@ -63,9 +63,6 @@ const transportWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>
-    <div className="transportContent">
-        //Place Content here
-    </div>
   </div>
 );
 
@@ -115,7 +112,6 @@ const attractionWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>
-     <div className="attractionsContent">
      <h1>Smithsonians</h1>
      <ul>
              <li><b><i>African American Museum</i></b></li>
@@ -229,7 +225,6 @@ const attractionWindow = () => (
                   <li><b>Hours: </b>Haupt Garden open daily dawn to dusk; all others open 24 hours</li>
              </ul>
      </ul>
-     </div>
   </div>
 );
 
@@ -253,7 +248,6 @@ const dressWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>  
-    <div classname="dresscodeContent">
     <h1>NLC Dress Code</h1>
     <p>In order to promote a professional atmosphere, BPA’s Board of Trustees has developed the following official dress code policy for the Business Professionals of America National Leadership Conference. Students, advisors and chaperones must follow the dress code. It is recommended that all guests follow established dress code policy.</p>
     <p>Members not dressed in required attire will not be allowed to participate in any session or any competitive event. Members not adhering to the Professional Dress Code will not be allowed on stage.</p>
@@ -304,7 +298,6 @@ const dressWindow = () => (
         </ul>
       <p><b>Swim suits</b> must be covered with appropriate attire while in any area except the swimming pool or designated sunbathing area.</p>
   </div>
-  </div>
 );
 
 const mapsWindows = () => (
@@ -329,14 +322,12 @@ const mapsWindows = () => (
        </Parallax>
     <br/>
     <br/>
-    <div className="mapsContent>
     <h2>The Hotel:</h2>
     <p> This years National Convention will be held at the Gaylord Palms Resort in Washington DC. Use the following interactive map to explore the surrounding area.</p>
     <iframe class="hotel" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.226301767285!2d-77.01896208465307!3d38.78144617958869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b0734d793d5d%3A0x7fccb753cbe0c4f7!2sGaylord+National+Resort+%26+Convention+Center%2C+Fort+Washington%2C+MD+20745!5e0!3m2!1sen!2sus!4v1541349162518" allowfullscreen></iframe>
     <br/>
     <br/>
     <hr/>
-  </div>
   </div>
 );
 
