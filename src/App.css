@@ -30,6 +30,11 @@
   border: none;
 }
 
+.transportContent{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
 .food{
   padding-left:25px;
   padding-right:25px;
@@ -43,6 +48,11 @@
   margin-top:20px;
   margin-left:20px;
   border: none;
+}
+
+.foodContent{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
 }
 
 .attractions{
@@ -80,6 +90,11 @@
   border: none;
 }
 
+.dresscodeContent{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
 .hours{
   padding-left:25px;
   padding-right:25px;
@@ -95,6 +110,11 @@
   border: none;
 }
 
+.hoursContent{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+}
+
 .maps{
   padding-left:25px;
   padding-right:25px;
@@ -108,6 +128,11 @@
   margin-top:20px;
   margin-left:20px;
   border: none;
+}
+
+.mapsContent{
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
 }
 
 .title{
@@ -180,6 +205,18 @@ ul{
 }
 
 h1{
+  margin-left: 2em;
+}
+
+h2{
+  margin-left: 2em;
+}
+
+h3{
+  margin-left: 2em;
+}
+
+h4{
   margin-left: 2em;
 }
 
