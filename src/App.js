@@ -41,7 +41,6 @@ const homeWindow = () => (
     <br/>
     <hr/>
     <br/>
-    <p>test</p>
   </div>
 );
 
