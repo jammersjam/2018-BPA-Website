@@ -121,7 +121,7 @@ const attractionWindow = () => (
      <p><i>Help keep the National Mall clean; place trash and recyclables in appropriate receptacles.</i></p>
      <p><i>Please be aware that many monuments, memorials, and museums have limited to no parking available.</i></p>
      <p><i>Always check ahead of time all monuments and memorials you wish to attend as many are undergoing renovation.</i></p>
-     <h1>Smithsonians</h1>
+     <div align="left"><h1>Smithsonians</h1></div>
      <ul>
              <li><b><i>African American Museum</i></b></li>
              <ul>
