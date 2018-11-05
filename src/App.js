@@ -112,6 +112,10 @@ const attractionWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>
+     <p><i>Washington addresses indicate quadrants--NW, NE, SE, SW--starting at the U.S. Capital. The axes are North Capital, South Capital, and East Capitol streets, and the National Mall.</i></p>
+     <p><i>Help keep the National Mall clean; place trash and recyclables in appropriate receptacles.</i></p>
+     <p><i>Please be aware that many monuments, memorials, and museums have limited to no parking available.</i></p>
+     <p><i>Always check ahead of time all monuments and memorials you wish to attend as many are undergoing renovation.</i></p>
      <h1>Smithsonians</h1>
      <ul>
              <li><b><i>African American Museum</i></b></li>
@@ -224,7 +228,92 @@ const attractionWindow = () => (
                   <li><b>Address: </b>Smithsonian museum grounds Washington, DC</li>
                   <li><b>Hours: </b>Haupt Garden open daily dawn to dusk; all others open 24 hours</li>
              </ul>
+             <li><b><i>United States Holocaust Memorial Museum</i></b></li>
+             <ul>
+                  <li>100 Raoul Wallenberg Pl SW, Washington, DC 20024</li>
+                  <li>10 a.m. - 5:20 p.m.</li>
+             </ul>
      </ul>
+     <h1>Memorials/Monuments</h1>
+     <h3>Arlington National Cemetery</h3>
+     <ul>
+            <li>Women in Military Service for America Memorial</li>
+            <ul>
+                   <li><b>Address: </b>Memorial Ave & Schley Dr, Arlington, VA 22202</li>
+                   <li><b>Hours: </b>8am – 5pm</li>
+            </ul>
+            <li>Arlington House (Robert E Lee Memorial)</li>
+            <ul>
+                   <li><b>Address: </b>321 Sherman Dr, Fort Myer, VA 22211</li>
+                   <li><b>Hours: </b>CLOSED FOR REHABILITATION</li>
+            </ul>
+            <li>Tomb of the Unknowns</li>
+            <ul>
+                   <li><b>Address: </b>1 Wilson Ave, Fort Myer, VA 22211</li>
+                   <li><b>Hours: </b>8a.m. - 5p.m.</li>
+            </ul>
+            <li>U.S. Marine Corps War Memorial (Iwo Jima Memorial)</li>
+            <ul>
+                   <li><b>Address: </b>Iwo Jima Memorial Access Rd, Arlington, United States</li>
+                   <li><b>Hours: </b>6 a.m. - 12 a.m.</li>
+            </ul>
+      </ul>
+      <h3>Tidal Basin</h3>
+      <ul>            
+            <li>Thomas Jefferson Memorial</li>
+            <ul>
+                   <li><b>Address: </b>701 E Basin Dr SW, Washington, DC 20242</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>            
+            <li>Franklin Delano Roosevelt Memorial</li>
+            <ul>
+                   <li><b>Address: </b>1850 West Basin Dr SW, Washington, DC 20242</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>            
+            <li>Martin Luther King, Jr. Memorial</li>
+            <ul>
+                   <li><b>Address: </b>1850 West Basin Dr SW, Washington, DC 20242</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>
+      </ul>
+      <h3>National Mall</h3>
+      <ul>
+            <li>Lincoln Memorial</li>
+            <ul>
+                   <li><b>Address: </b>2 Lincoln Memorial Cir NW, Washington, DC 20037</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>
+            <li>Korean War Veterans Memorial</li>
+            <ul>
+                   <li><b>Address: </b>1964 Independence Ave SW, Washington, DC 20024</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>
+            <li>Vietnam Veterans Memorial</li>
+            <ul>
+                   <li><b>Address: </b>5 Henry Bacon Dr SW, Washington, DC 20007</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>
+            <li>Constitutional Gardens</li>
+            <ul>
+                   <li><b>Address: </b>Constitution Ave NW, Washington, DC 20024</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>
+            <li>World War II Memorial</li>
+            <ul>
+                   <li><b>Address: </b>1750 Independence Ave SW, Washington, DC 20024</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>
+            <li>Washington Monument</li>
+            <ul>
+                   <li><b>Address: </b>2 15th St NW, Washington, DC 20024</li>
+                   <li><b>Hours: </b>9a.m. - 10p.m.</li>
+            </ul>
+            <li>The American Veterans Disabled for Life Memorial</li>
+            <ul>
+                   <li><b>Address: </b>150 Washington Ave SW, Washington, DC 20024</li>
+                   <li><b>Hours: </b>Open 24/7</li>
+            </ul>
+      </ul>
   </div>
 );
 
