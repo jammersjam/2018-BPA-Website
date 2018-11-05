@@ -131,7 +131,8 @@ const dressWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>
-    <h2>Professional Dress Code</h2>
+  </div>
+<h2>Professional Dress Code</h2>
     <p><i>Required for the following events: General Sessions, all Competitive Events (judged, non-judged, and open), Campaign Rally, Caucuses, Workshops, National Leadership Academy.</i></p>
     <h3>Women:</h3>
     <ul>
@@ -152,7 +153,6 @@ const dressWindow = () => (
           <li>Dress shoes and dress socks are required with all of the above.</li>
           <li>This excludes all denim for any of the above.</li>
     </ul>
-  </div>
 );
 
 const mapsWindows = () => (
