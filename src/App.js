@@ -241,7 +241,7 @@ const attractionWindow = () => (
              </ul>
      </ul>
      <h1 align="center">Memorials/Monuments</h1>
-     <h2 style="padding-left: 40px;">Arlington National Cemetery</h2>
+     <h2>Arlington National Cemetery</h2>
      <ul>
             <li><b><i>Women in Military Service for America Memorial</i></b></li>
             <ul>
@@ -264,7 +264,7 @@ const attractionWindow = () => (
                    <li><b>Hours: </b>6 a.m. - 12 a.m.</li>
             </ul>
       </ul>
-      <h2 style="padding-left: 40px;">Tidal Basin</h2>
+      <h2>Tidal Basin</h2>
       <ul>            
             <li><b><i>Thomas Jefferson Memorial</i></b></li>
             <ul>
@@ -282,7 +282,7 @@ const attractionWindow = () => (
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>
       </ul>
-      <h2 style="padding-left: 40px;">National Mall</h2>
+      <h2>National Mall</h2>
       <ul>
             <li><b><i>Lincoln Memorial</i></b></li>
             <ul>
