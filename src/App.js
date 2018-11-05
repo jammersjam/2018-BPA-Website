@@ -31,6 +31,7 @@ const homeWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/"><button class="home">🏠 Home</button></Link>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -48,6 +49,7 @@ const transportWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/"><button class="home">🏠 Home</button></Link
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -97,6 +99,7 @@ const attractionWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/"><button class="home">🏠 Home</button></Link
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -322,6 +325,7 @@ const dressWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/"><button class="home">🏠 Home</button></Link
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -394,6 +398,7 @@ const mapsWindows = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/"><button class="home">🏠 Home</button></Link
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
