@@ -16,6 +16,7 @@ const App = () => (
   <HashRouter>
     <div>
       <Route exact path="/" component={homeWindow} />
+      <Route path="/home" component={homeWindow} />
       <Route path="/transportation" component={transportWindow} />
       <Route path="/food" component={foodWindow} />
       <Route path="/attractions" component={attractionWindow} />
@@ -31,7 +32,7 @@ const homeWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
-    <Link to="/"><button class="home">🏠 Home</button></Link>
+    <Link to="/home"><button class="home">🏠 Home</button></Link>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -49,7 +50,7 @@ const transportWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
-    <Link to="/"><button class="home">🏠 Home</button></Link
+    <Link to="/home"><button class="home">🏠 Home</button></Link>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -73,6 +74,7 @@ const foodWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
+    <Link to="/home"><button class="home">🏠 Home</button></Link>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -99,7 +101,7 @@ const attractionWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
-    <Link to="/"><button class="home">🏠 Home</button></Link
+    <Link to="/home"><button class="home">🏠 Home</button></Link>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -240,22 +242,22 @@ const attractionWindow = () => (
      <h1>Memorials/Monuments</h1>
      <h3>Arlington National Cemetery</h3>
      <ul>
-            <li>Women in Military Service for America Memorial</li>
+            <li><b><i>Women in Military Service for America Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>Memorial Ave & Schley Dr, Arlington, VA 22202</li>
                    <li><b>Hours: </b>8am – 5pm</li>
             </ul>
-            <li>Arlington House (Robert E Lee Memorial)</li>
+            <li><b><i>Arlington House (Robert E Lee Memorial)</i></b></li>
             <ul>
                    <li><b>Address: </b>321 Sherman Dr, Fort Myer, VA 22211</li>
                    <li><b>Hours: </b>CLOSED FOR REHABILITATION</li>
             </ul>
-            <li>Tomb of the Unknowns</li>
+            <li><b><i>Tomb of the Unknowns</i></b></li>
             <ul>
                    <li><b>Address: </b>1 Wilson Ave, Fort Myer, VA 22211</li>
                    <li><b>Hours: </b>8a.m. - 5p.m.</li>
             </ul>
-            <li>U.S. Marine Corps War Memorial (Iwo Jima Memorial)</li>
+            <li><b><i>U.S. Marine Corps War Memorial (Iwo Jima Memorial)</i></b></li>
             <ul>
                    <li><b>Address: </b>Iwo Jima Memorial Access Rd, Arlington, United States</li>
                    <li><b>Hours: </b>6 a.m. - 12 a.m.</li>
@@ -263,17 +265,17 @@ const attractionWindow = () => (
       </ul>
       <h3>Tidal Basin</h3>
       <ul>            
-            <li>Thomas Jefferson Memorial</li>
+            <li><b><i>Thomas Jefferson Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>701 E Basin Dr SW, Washington, DC 20242</li>
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>            
-            <li>Franklin Delano Roosevelt Memorial</li>
+            <li><b><i>Franklin Delano Roosevelt Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>1850 West Basin Dr SW, Washington, DC 20242</li>
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>            
-            <li>Martin Luther King, Jr. Memorial</li>
+            <li><b><i>Martin Luther King, Jr. Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>1850 West Basin Dr SW, Washington, DC 20242</li>
                    <li><b>Hours: </b>Open 24/7</li>
@@ -281,37 +283,37 @@ const attractionWindow = () => (
       </ul>
       <h3>National Mall</h3>
       <ul>
-            <li>Lincoln Memorial</li>
+            <li><b><i>Lincoln Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>2 Lincoln Memorial Cir NW, Washington, DC 20037</li>
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>
-            <li>Korean War Veterans Memorial</li>
+            <li><b><i>Korean War Veterans Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>1964 Independence Ave SW, Washington, DC 20024</li>
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>
-            <li>Vietnam Veterans Memorial</li>
+            <li><b><i>Vietnam Veterans Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>5 Henry Bacon Dr SW, Washington, DC 20007</li>
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>
-            <li>Constitutional Gardens</li>
+            <li><b><i>Constitutional Gardens</i></b></li>
             <ul>
                    <li><b>Address: </b>Constitution Ave NW, Washington, DC 20024</li>
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>
-            <li>World War II Memorial</li>
+            <li><b><i>World War II Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>1750 Independence Ave SW, Washington, DC 20024</li>
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>
-            <li>Washington Monument</li>
+            <li><b><i>Washington Monument</i></b></li>
             <ul>
                    <li><b>Address: </b>2 15th St NW, Washington, DC 20024</li>
                    <li><b>Hours: </b>9a.m. - 10p.m.</li>
             </ul>
-            <li>The American Veterans Disabled for Life Memorial</li>
+            <li><b><i>The American Veterans Disabled for Life Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>150 Washington Ave SW, Washington, DC 20024</li>
                    <li><b>Hours: </b>Open 24/7</li>
@@ -325,7 +327,7 @@ const dressWindow = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
-    <Link to="/"><button class="home">🏠 Home</button></Link
+    <Link to="/home"><button class="home">🏠 Home</button></Link>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -398,7 +400,7 @@ const mapsWindows = () => (
     <header className="App-header">
     <h1>BPA Nationals</h1>
     </header>
-    <Link to="/"><button class="home">🏠 Home</button></Link
+    <Link to="/home"><button class="home">🏠 Home</button></Link>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
