@@ -246,7 +246,6 @@ const attractionWindow = () => (
                         <li>Smoke or carry lighted cigarettes, cigars, or pipes into exhibit buildings, or to have a fire of any kind on the premises</li>
                         <li>Damage, deface, pick, or remove any herb, shrub, bush, tree, or turf, or portion thereof</li>
                   </ul>
-             </ul>
              <li><b><i>Natural History Museum</i></b></li>
              <ul>
                   <li><b>Address: </b>10th Street and Constitution Avenue, NW Washington, DC</li>
@@ -329,17 +328,17 @@ const attractionWindow = () => (
             </ul>
       </ul>
       <h2 class="h2ul">Tidal Basin</h2>
-      <ul>            
+      <ul>
             <li><b><i>Thomas Jefferson Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>701 E Basin Dr SW, Washington, DC 20242</li>
                    <li><b>Hours: </b>Open 24/7</li>
-            </ul>            
+            </ul>
             <li><b><i>Franklin Delano Roosevelt Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>1850 West Basin Dr SW, Washington, DC 20242</li>
                    <li><b>Hours: </b>Open 24/7</li>
-            </ul>            
+            </ul>
             <li><b><i>Martin Luther King, Jr. Memorial</i></b></li>
             <ul>
                    <li><b>Address: </b>1850 West Basin Dr SW, Washington, DC 20242</li>
@@ -458,7 +457,7 @@ const dressWindow = () => (
             <h1>Dress Code</h1>
            </div>
            <div style={{ height: '300px' }} />
-       </Parallax>  
+       </Parallax>
     <h1>NLC Dress Code</h1>
     <p>In order to promote a professional atmosphere, BPA’s Board of Trustees has developed the following official dress code policy for the Business Professionals of America National Leadership Conference. Students, advisors and chaperones must follow the dress code. It is recommended that all guests follow established dress code policy.</p>
     <p>Members not dressed in required attire will not be allowed to participate in any session or any competitive event. Members not adhering to the Professional Dress Code will not be allowed on stage.</p>
@@ -468,7 +467,7 @@ const dressWindow = () => (
     <h2>Professional Dress Code</h2>
         <p><i>Required for the following events: General Sessions, all Competitive Events (judged, non-judged, and open), Campaign Rally, Caucuses, Workshops, National Leadership Academy.</i></p>
         <h3>Women:</h3>
-        
+
               <p>Pant or skirt suit.</p>
               <p>Dress skirt or dress slacks with coordinated blouse and/or sweater.</p>
               <p>Business professional “dress.”</p>
@@ -476,37 +475,37 @@ const dressWindow = () => (
               <p>Dress shoes or dress sandals with heel are required with all of the above.</p>
               <p>Skirt length may be no greater than two inches above the top of the knee.</p>
               <p>This excludes all denim for any of the above.</p>
-        
+
         <h3>Men:</h3>
-        
+
               <p>Dress slacks, dress shirt, and tie.</p>
               <p>Suit, dress shirt, and tie.</p>
               <p>Sport coat, coordinated dress slacks, dress shirt, and tie.</p>
               <p>BPA blazer with dress slacks, dress shirt, and tie.</p>
               <p>Dress shoes and dress socks are required with all of the above.</p>
               <p>This excludes all denim for any of the above.</p>
-        
+
 
     <h2>Casual Dress Code</h2>
         <p><i>Required for the following events: Tours, Special Events and Exhibit Hall.</i></p>
         <h3>Women:</h3>
-        
+
               <p>Sportswear (jeans), pants, and shirt, T-shirt, and shorts.</p>
               <p>Footwear required with all of the above.</p>
-        
+
         <h3>Men:</h3>
-        
+
               <p>Sportswear (jeans), pants and shirt, T-shirt, and shorts.</p>
               <p>Footwear required with all of the above. </p>
-        
+
 
     <h2>The following are unacceptable during BPA activities:</h2>
-        
+
               <p>Strapless, spaghetti straps, tube tops, halter tops, midriff tops.</p>
               <p>Spandex, lycra, or transparent clothing.</p>
               <p>Cut-offs or ragged clothing.</p>
               <p>Clothing with inappropriate words and pictures.</p>
-        
+
       <p><b>Swim suits</b> must be covered with appropriate attire while in any area except the swimming pool or designated sunbathing area.</p>
   </div>
 );
