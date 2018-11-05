@@ -12,29 +12,6 @@ import { Parallax, Background } from 'react-parallax';
 
 const App = () => (
 
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
   <HashRouter>
     <div>
       <Route exact path="/" component={homeWindow} />
@@ -55,14 +32,6 @@ const homeWindow = () => (
     <h1>BPA Nationals</h1>
     </header>
     <Link to="/home"><button class="home">🏠 Home</button></Link>
-    <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-          </div>
-    </div>
     <Link to="/attractions"><button class="attractions">🏛️ Attractions</button></Link>
     <Link to="/transportation"><button class="transport">🚌 Transportation</button></Link>
     <Link to="/maps"><button class="maps">🗺️ Maps</button></Link>
@@ -72,6 +41,7 @@ const homeWindow = () => (
     <br/>
     <hr/>
     <br/>
+    <p>test</p>
   </div>
 );
 
