@@ -319,6 +319,57 @@ const attractionWindow = () => (
                    <li><b>Hours: </b>Open 24/7</li>
             </ul>
       </ul>
+    <h1>Government Buildings</h1>
+    <p><i>Please be respectful of the appropriate etiquette at all times when on government grounds. Remember when at NLC you are not only representing your state and the national organization, but also yourself.</i></li>
+    <ul>
+            <li><b><i>United States Capital Building</i></b></li>
+            <ul>
+                   <a href="https://www.visitthecapitol.gov/" rel="nofollow" target="_blank">Capital Building Website</a>
+                   <li><b>Address: </b>First St NE, Washington, DC 20515</li>
+                   <li><b>Hours: </b>Monday - Saturday: 8:30a.m. - 4:30p.m.</li>
+                   <li><b>Prohibited Items: </li>
+                   <ul>
+                          <li><i>Before entering the Capitol Visitor Center, all visitors are screened by a magnetometer and all items that are permitted inside the building are screened by an x-ray device.</i></li>
+                          <li><i>The following items are strictly prohibited in the Capitol, including the Capitol Visitor Center:</i></li>
+                          <ul>
+                                <li>Liquid, including water</li>
+                                <li>Food or beverages of any kind, including fruit and unopened packaged food</li>
+                                <li>Aerosol containers</li>
+                                <li>Non-aerosol spray (Prescriptions for medical needs are permitted.)</li>
+                                <li>Any pointed object, e.g. knitting needles and letter openers (Pens and pencils are permitted.)</li>
+                                <li>Any bag larger than 18" wide x 14" high x 8.5" deep</li>
+                                <li>Electric stun guns, martial arts weapons or devices</li>
+                                <li>Guns, replica guns, ammunition, and fireworks</li>
+                                <li>Knives of any size</li>
+                                <li>Mace and pepper spray</li>
+                                <li>Razors and box cutters</li>
+                         </ul>
+                         <li><i>The following items are not allowed in the Senate and House Galleries:</i></li>
+                         <ul>
+                                <li>Battery-operated electronic devices (medical devices are permitted)</li>
+                                <li>Cameras</li>
+                                <li>Cans and bottles</li>
+                                <li>Creams, lotions or perfume</li>
+                                <li>Packages, briefcases, backpacks or suitcases</li>
+                                <li>Strollers</li>
+                                <li>Video recorders or any type of recording device</li>
+                                <li><i>Each Gallery operates a checkstand where visitors may store these items securely while they are visiting that Gallery.</i></li>
+                         </ul>
+                  </ul>
+                  <li><b>Tours: </b></li>
+                  <ul>
+                        <li><i>Advance reservations are recommended, but not required.</i></li>
+                        <li>Small groups (of 15 and fewer people) can <a href="https://tours.visitthecapitol.gov/cvc#.WqlNZijwaHs" rel="nofollow" target="_blank">click here</a> to create an account and reserve a tour date and time. <i>Reservations are available 90 days in advance.</i></li>
+                        <li>Tour services and organizations with groups of more than 15 participants should <a href="https://tours.visitthecapitol.gov/CVC/#.WqlNzyjwaHs" rel="nofollow" target="_blank">click here</a> to access the group section of the online reservation system. <i>Reservations for groups become available 120 days in advance.</i></li>
+                        <li>Same-day passes are available at the Information Desks located on the lower level of the Visitor Center. During spring, summer and some holiday periods, the availability of same-day tour passes may be limited. There may be a wait to acquire passes. <i>Please plan accordingly and arrive early, if possible.</i></li>
+                  </ul>
+            </ul>
+            <li><b><i></i></b></li>
+            <ul>
+                   <li><b>Address: </b></li>
+                   <li><b>Hours: </b></li>
+            </ul>
+    </ul>
   </div>
 );
 
