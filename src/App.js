@@ -320,7 +320,7 @@ const attractionWindow = () => (
             </ul>
       </ul>
     <h1>Government Buildings</h1>
-    <p><i>Please be respectful of the appropriate etiquette at all times when on government grounds. Remember when at NLC you are not only representing your state and the national organization, but also yourself.</i></li>
+    <p><i>Please be respectful of the appropriate etiquette at all times when on government grounds. Remember when at NLC you are not only representing your state and the national organization, but also yourself.</i></p>
     <ul>
             <li><b><i>United States Capital Building</i></b></li>
             <ul>
