@@ -109,6 +109,7 @@ const attractionWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>
+     <div className="attractionsContent">
      <h1>Smithsonians</h1>
      <ul>
              <li><b><i>African American Museum</i></b></li>
@@ -222,6 +223,7 @@ const attractionWindow = () => (
                   <li><b>Hours: </b>Haupt Garden open daily dawn to dusk; all others open 24 hours</li>
              </ul>
      </ul>
+     </div>
   </div>
 );
 
