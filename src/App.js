@@ -131,14 +131,8 @@ const dressWindow = () => (
             <h1>Dress Code</h1>
            </div>
            <div style={{ height: '300px' }} />
-       </Parallax>
-<<<<<<< HEAD
-
-=======
-    
+       </Parallax>  
     <h1>NLC Dress Code</h1>
-    
->>>>>>> 9f336fdde73decc937e9b4584098017da0f35624
     <p>In order to promote a professional atmosphere, BPA’s Board of Trustees has developed the following official dress code policy for the Business Professionals of America National Leadership Conference. Students, advisors and chaperones must follow the dress code. It is recommended that all guests follow established dress code policy.</p>
     <p>Members not dressed in required attire will not be allowed to participate in any session or any competitive event. Members not adhering to the Professional Dress Code will not be allowed on stage.</p>
     <p>Members refused entrance to an event will be given the opportunity to change into appropriate attire immediately and participate/compete in the event. Having changed into appropriate attire, the member will join testing in progress. No additional time will be given for time missed.</p>
