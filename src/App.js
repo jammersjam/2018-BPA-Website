@@ -131,28 +131,49 @@ const dressWindow = () => (
            </div>
            <div style={{ height: '300px' }} />
        </Parallax>
+
+    <h2>Professional Dress Code</h2>
+        <p><i>Required for the following events: General Sessions, all Competitive Events (judged, non-judged, and open), Campaign Rally, Caucuses, Workshops, National Leadership Academy.</i></p>
+        <h3>Women:</h3>
+        <ul>
+              <li>Pant or skirt suit.</li>
+              <li>Dress skirt or dress slacks with coordinated blouse and/or sweater.</li>
+              <li>Business professional “dress.”</li>
+              <li>BPA blazer with dress skirt or dress slacks and blouse or sweater.</li>
+              <li>Dress shoes or dress sandals with heel are required with all of the above.</li>
+              <li>Skirt length may be no greater than two inches above the top of the knee.</li>
+              <li>This excludes all denim for any of the above.</li>
+        </ul>
+        <h3>Men:</h3>
+        <ul>
+              <li>Dress slacks, dress shirt, and tie.</li>
+              <li>Suit, dress shirt, and tie.</li>
+              <li>Sport coat, coordinated dress slacks, dress shirt, and tie.</li>
+              <li>BPA blazer with dress slacks, dress shirt, and tie.</li>
+              <li>Dress shoes and dress socks are required with all of the above.</li>
+              <li>This excludes all denim for any of the above.</li>
+        </ul>
+    <h2>Casual Dress Code</h2>
+        <p><i>Required for the following events: Tours, Special Events and Exhibit Hall.</i></p>
+        <h3>Women:</h3>
+        <ul>
+              <li>Sportswear (jeans), pants, and shirt, T-shirt, and shorts.</li>
+              <li>Footwear required with all of the above.</li>
+        </ul>
+        <h3>Men:</h3>
+        <ul>
+              <li>Sportswear (jeans), pants and shirt, T-shirt, and shorts.</li>
+              <li>Footwear required with all of the above. </li>
+        </ul>
+    <h2>The following are unacceptable during BPA activities:</h2>
+        <ul>
+              <li>Strapless, spaghetti straps, tube tops, halter tops, midriff tops.</li>
+              <li>Spandex, lycra, or transparent clothing.</li>
+              <li>Cut-offs or ragged clothing.</li>
+              <li>Clothing with inappropriate words and pictures.</li>
+        </ul>
+    <p><b>Swim suits</b> must be covered with appropriate attire while in any area except the swimming pool or designated sunbathing area.</p>
   </div>
-<h2>Professional Dress Code</h2>
-    <p><i>Required for the following events: General Sessions, all Competitive Events (judged, non-judged, and open), Campaign Rally, Caucuses, Workshops, National Leadership Academy.</i></p>
-    <h3>Women:</h3>
-    <ul>
-          <li>Pant or skirt suit.</li>
-          <li>Dress skirt or dress slacks with coordinated blouse and/or sweater.</li>
-          <li>Business professional “dress.”</li>
-          <li>BPA blazer with dress skirt or dress slacks and blouse or sweater.</li>
-          <li>Dress shoes or dress sandals with heel are required with all of the above.</li>
-          <li>Skirt length may be no greater than two inches above the top of the knee.</li>
-          <li>This excludes all denim for any of the above.</li>
-    </ul>
-    <h3>Men:</h3>
-    <ul>
-          <li>Dress slacks, dress shirt, and tie.</li>
-          <li>Suit, dress shirt, and tie.</li>
-          <li>Sport coat, coordinated dress slacks, dress shirt, and tie.</li>
-          <li>BPA blazer with dress slacks, dress shirt, and tie.</li>
-          <li>Dress shoes and dress socks are required with all of the above.</li>
-          <li>This excludes all denim for any of the above.</li>
-    </ul>
 );
 
 const mapsWindows = () => (
