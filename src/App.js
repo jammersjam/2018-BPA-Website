@@ -56,7 +56,7 @@ const transportWindow = () => (
     <br/>
     <hr/>
     <br/>
-    <Parallax blur={10} bgImage={require('./taxi.jpg')} bgImageAlt="map" strength={200}>
+    <Parallax blur={10} bgImage={require('./taxi.jpg')} bgImageAlt="map" strength={500}>
            <div class="box">
             <h1>Transportation</h1>
            </div>
@@ -79,7 +79,7 @@ const foodWindow = () => (
     <br/>
     <hr/>
     <br/>
-    <Parallax blur={10} bgImage={require('./pizza.jpeg')} bgImageAlt="map" strength={200}>
+    <Parallax blur={10} bgImage={require('./pizza.jpeg')} bgImageAlt="map" strength={500}>
            <div class="box">
             <h1>Food</h1>
            </div>
@@ -102,7 +102,7 @@ const attractionWindow = () => (
     <br/>
     <hr/>
     <br/>
-    <Parallax blur={10} bgImage={require('./whitehouse.JPG')} bgImageAlt="map" strength={200}>
+    <Parallax blur={10} bgImage={require('./whitehouse.JPG')} bgImageAlt="map" strength={500}>
            <div class="box">
             <h1>Attractions</h1>
            </div>
@@ -125,7 +125,7 @@ const dressWindow = () => (
     <br/>
     <hr/>
     <br/>
-    <Parallax blur={10} bgImage={require('./suit.jpg')} bgImageAlt="map" strength={200}>
+    <Parallax blur={10} bgImage={require('./suit.jpg')} bgImageAlt="map" strength={500}>
            <div class="box">
             <h1>Dress Code</h1>
            </div>
@@ -148,7 +148,7 @@ const mapsWindows = () => (
     <br/>
     <hr/>
     <br/>
-    <Parallax blur={10} bgImage={require('./map.jpg')} bgImageAlt="map" strength={200}>
+    <Parallax blur={10} bgImage={require('./map.jpg')} bgImageAlt="map" strength={500}>
            <div class="box">
             <h1>Maps</h1>
            </div>
