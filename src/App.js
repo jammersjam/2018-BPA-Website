@@ -302,8 +302,8 @@ const attractionWindow = () => (
                   <li>100 Raoul Wallenberg Pl SW, Washington, DC 20024</li>
                   <li>10 a.m. - 5:20 p.m.</li>
                   <li><i>All bags will be checked by hand.</i></li>
+</li>
              </ul>
-             </li>
      </ul>
      <h1 align="center">Memorials/Monuments</h1>
      <h2 class="h2ul">Arlington National Cemetery</h2>
