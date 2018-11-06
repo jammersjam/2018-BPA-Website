@@ -246,6 +246,7 @@ const attractionWindow = () => (
                         <li>Smoke or carry lighted cigarettes, cigars, or pipes into exhibit buildings, or to have a fire of any kind on the premises</li>
                         <li>Damage, deface, pick, or remove any herb, shrub, bush, tree, or turf, or portion thereof</li>
                   </ul>
+                  </li>
              </ul>
              <li><b><i>Natural History Museum</i></b></li>
              <ul>
