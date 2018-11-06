@@ -246,7 +246,7 @@ const attractionWindow = () => (
                         <li>Smoke or carry lighted cigarettes, cigars, or pipes into exhibit buildings, or to have a fire of any kind on the premises</li>
                         <li>Damage, deface, pick, or remove any herb, shrub, bush, tree, or turf, or portion thereof</li>
                   </ul>
-             </li>
+             </ul>
              <li><b><i>Natural History Museum</i></b></li>
              <ul>
                   <li><b>Address: </b>10th Street and Constitution Avenue, NW Washington, DC</li>
@@ -303,7 +303,8 @@ const attractionWindow = () => (
                   <li>10 a.m. - 5:20 p.m.</li>
                   <li><i>All bags will be checked by hand.</i></li>
              </ul>
-     </li>
+             </li>
+     </ul>
      <h1 align="center">Memorials/Monuments</h1>
      <h2 class="h2ul">Arlington National Cemetery</h2>
      <ul>
