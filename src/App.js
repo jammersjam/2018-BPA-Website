@@ -303,6 +303,7 @@ const attractionWindow = () => (
                   <li>100 Raoul Wallenberg Pl SW, Washington, DC 20024</li>
                   <li>10 a.m. - 5:20 p.m.</li>
                   <li><i>All bags will be checked by hand.</i></li>
+</li>
              </ul>
      </ul>
      <h1 align="center">Memorials/Monuments</h1>
@@ -535,7 +536,7 @@ const mapsWindows = () => (
        </Parallax>
     <br/>
     <br/>
-    <h2>The Hotel:</h2>
+    <h2>Gaylord Palms Resort:</h2>
     <p> This years National Convention will be held at the Gaylord Palms Resort in Washington DC. Use the following interactive map to explore the surrounding area.</p>
     <iframe class="hotel" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3110.226301767285!2d-77.01896208465307!3d38.78144617958869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b0734d793d5d%3A0x7fccb753cbe0c4f7!2sGaylord+National+Resort+%26+Convention+Center%2C+Fort+Washington%2C+MD+20745!5e0!3m2!1sen!2sus!4v1541349162518" allowfullscreen></iframe>
     <br/>
